@@ -1,0 +1,33 @@
+# Залежності
+/node_modules
+/package-lock.json
+
+# Логи
+*.log
+*.gz
+
+# Виробничі файли
+/dist
+
+# Coveralls
+.nyc_output
+/coverage
+
+# Файли редактора
+/.vscode
+/.idea
+*.sublime-project
+*.sublime-workspace
+
+# Операційні системи
+.DS_Store
+Thumbs.db
+
+# Бенчмаркінг
+/benchmarks/graphs
+
+# Змінні середовища
+.env
+
+# Конфігураційні файли
+/config
